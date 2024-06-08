@@ -139,7 +139,7 @@
             <li><a href="#pidcontrol">Pid Control</a></li>
             <li><a href="#codechanges">Code Changes<a></li>
             <li><a href="#rankings">Competition Rankings</a></li>
-            <li><a href="#video">Competition Video</a></li> <!--improvements -->
+
     </nav>
 </header>
 
@@ -150,24 +150,37 @@
         <p> Members: Connor, Shanni, Sarena </p>  
         <p> Photo:</p>
         <p> Poster: </p>
+        <img src="images/poster.JPG" alt="parts" width="700" height="600">  
+
     </section>
 
     <section id="parts">
         <h2> Prototyping parts / Assembly </h2>
         <!-- final robot photo has annotation arrow w word labels -->
         <p> Photo of robot: </p>
-        <img src="images/robot1.png" alt="parts" width="500" height="400">
-        <img src="images/robot2.png" alt="parts" width="500" height="400">
-        
-      
+        <img src="images/robotupdated.JPG" alt="parts" width="700" height="600">       
         
     </section>
 
     <section id="pidcontrol">
         <h2> What pid values did you choose and why? </h2>
-        <p> We chose ... </p>
+        <h3> Loop: </h3>
+        <p>  Speed: 63 <br> P: 33 <br> I & D: 0 <br>
+        This is the optimal speed for our design to run loops quick enough 
+    while not shooting off the track. Going faster makes it harder to read the
+track accurately.</p>
+<h3> Frequency: </h3>
+        <p>  Speed: 17 <br> P: 35-40 <br> I & D: 0 <br>
+        The track has more sharp turns so we lower the speed and increase the P value
+    to read the track accurately. </p>
+    <h3> Drag Race: </h3>
+    <p>  Speed: 63 <br> P: 33 <br> I & D: 0 <br>
+     We used max speed since we are going in a straight line as quick as possible.
+    Other values stayed the same.</p>
+
         <h2> How did u adjust speed/pid for different tracks?</h2>
-        <p> We adjusted speed & PID for different tracks by...</p>
+         <p> We adjusted speed & PID for different tracks by <br>
+            turning the blue knobs aka potentiometers. </p>
     </section>
 
     <section id="codechanges">
@@ -177,23 +190,23 @@
     <section id="rankings">
         <h2> Competition Rankings </h2>  
         <h3> Drag Race: </h3>
-        <p> Time: <br> Rank: </p>
+        <p> Time: <br> Rank: 3rd / 9 ?</p>
+        <section id="video">
+            <h2> Drag Race Video</h2>
+            <!-- Video Player -->
+            <video width="640" height="360" controls>
+              <source src="images/dragrace.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
     
-        <h3> Freq sweep: </h3>
-        <p> Time: <br> Rank: </p>
+        <h3> Frequency sweep: </h3>
+        <p> Time: <br> Rank: 2nd</p>
 
         <h3> Loop: </h3>
-        <p> # of loops: <br> Rank: </p>
-    
-    </section>
+        <p> # of loops: 12.78 <br> Rank: 3rd </p>
 
-<section id="video">
-  <h2> Robot recording 4/11/2024</h2>
-  <!-- Video Player -->
-  <video width="640" height="360" controls>
-    <source src="images/video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+
+
 
 </section>
 </main>
